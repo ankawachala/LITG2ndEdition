@@ -4,14 +4,16 @@
 
 	<title>Placemaking.pl</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/additional_classes.css" rel="stylesheet">
 	
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -20,35 +22,104 @@
       <a class="navbar-brand" href="#">Brand</a>
     </div>
 
+	
+	<!-- MENU -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Articles <span class="caret"></span></a></li>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+            <li><a href="#">Article no.1</a></li>
+            <li><a href="#">Article no.2</a></li>
+            <li><a href="#">Article no.3</a></li>
+			<li><a href="#">Article no.4</a></li>
+            <li><a href="#">Article no.5</a></li>
+            <li><a href="#">Article no.6</a></li>
+			<li><a href="#">See more...</a></li>
+          </ul>        
+		<li><a href="#">About Placemaking.pl</a></li>
+		<li><a href="#">Contact</a></li>     
       </ul>
-      <form class="navbar-form navbar-left" role="search">
+	
+	<!-- SEARCH BOX --->
+      <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">Go!</button>
       </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-      </ul>
+	  
     </div>
+	
   </div>
-</nav>
+ </nav>
+
+
+ 
+  	<!-- PANELS -->
+	<div class="container">
+		
+		<div class="panel panel-primary block tl">
+			<div class="panel-heading">
+			<h3 class="panel-title">Article No.1</h3>
+			</div>
+			<div class="panel-body">
+			Panel content
+			</div>
+		</div>
+		
+		<div class="block t panel panel-success">
+			<div class="panel-heading">
+			<h3 class="panel-title">Article No.2</h3>
+			</div>
+			<div class="panel-body">
+			Panel content
+			</div>
+		</div>
+		
+		<div class="block tr panel panel-primary">
+			<div class="panel-heading">
+			<h3 class="panel-title">Article No.3</h3>
+			</div>
+			<div class="panel-body">
+			Panel content
+			</div>
+		</div>
+		
+		<div class="block bl panel panel-success">
+			<div class="panel-heading">
+			<h3 class="panel-title">Article No.4</h3>
+			</div>
+			<div class="panel-body">
+			Panel content
+			</div>
+		</div>
+		
+		<div class="block b panel panel-primary">
+			<div class="panel-heading">
+			<h3 class="panel-title">Article No.5</h3>
+			</div>
+			<div class="panel-body">
+			Panel content
+			</div>
+		</div>
+		
+		<div class="block br panel panel-success">
+		
+			<div class="panel-heading">
+			<h3 class="panel-title">Article No.6</h3>
+			</div>
+			<div class="panel-body">
+			Panel content
+			</div>
+		</div>
+	
+		<div class="butt btn-group btn-group-justified">
+			<a href="#" class="btn btn-default">See more articles...</a>
+		</div> 
+	
+	</div>  
+
 
 </body>
 </html>

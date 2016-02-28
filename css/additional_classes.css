@@ -1,0 +1,64 @@
+.container
+{
+    max-width: 3000px;
+	max-height: 1000px;
+	height: 700px;
+    position:relative;
+    margin-top:25px;
+}
+
+.block
+{
+    width:30%;
+    height:30%;
+    position:absolute;
+    left:50%;
+    top:50%;
+}
+
+.tl
+{
+    top:0%;
+	left:0%;
+	height:40%;
+}
+
+.t
+{
+    top:0%;
+	left:35%;
+}
+
+.tr
+{
+    top:0%;
+	left:70%;
+	height:20%;
+}
+
+.bl
+{
+    top:45%;
+	left:0%;
+	height:20%;
+}
+
+.b
+{
+    top:35%;
+	left:35%;
+}
+
+.br
+{
+    top:25%;
+	left:70%;
+	height:40%;
+}
+
+.butt
+{
+	position:absolute;
+	width:95%;
+	top:70%;
+}

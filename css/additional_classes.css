@@ -2,14 +2,13 @@
 {
     max-width: 3000px;
 	max-height: 1000px;
-	height: 700px;
+	height: 650px;
     position:relative;
-    margin-top:25px;
 }
 
 .block
 {
-    width:30%;
+	width:30%;
     height:30%;
     position:absolute;
     left:50%;
@@ -20,45 +19,76 @@
 {
     top:0%;
 	left:0%;
-	height:40%;
+	height:45%;
+	margin-top: 35px;
 }
 
 .t
 {
     top:0%;
 	left:35%;
+	height:35%;
+	margin-top: 35px;
 }
 
 .tr
 {
     top:0%;
 	left:70%;
-	height:20%;
+	height:25%;
+	margin-top: 35px;
 }
 
 .bl
 {
-    top:45%;
+    top:50%;
 	left:0%;
-	height:20%;
+	height:25%;
+	margin-top: 35px;
 }
 
 .b
 {
-    top:35%;
+    top:40%;
 	left:35%;
+	height:35%;
+	margin-top: 35px;
 }
 
 .br
 {
-    top:25%;
+    top:30%;
 	left:70%;
-	height:40%;
+	height:45%;
+	margin-top: 35px;
 }
 
 .butt
 {
 	position:absolute;
 	width:95%;
-	top:70%;
+	top:81%;
+	margin-top: 35px;
+}
+
+.div-wrapper {
+    position: relative;
+}
+
+.div-wrapper img {
+    position: relative;
+    left: 0;
+    bottom: 0;
+	max-width: 100%;
+	max-height: auto;
+}
+
+.background_color
+{
+	background-color: #E3E3E3;
+}
+
+.p_font
+{
+	font-size: 1.5vw;
 }
